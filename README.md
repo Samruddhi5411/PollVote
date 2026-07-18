@@ -1,6 +1,7 @@
 # PollVote
 
 **Java, Spring Boot, Spring Data JPA, MySQL, React.js**
+
 PollVote is a full-stack polling application where users can create polls with multiple options, view available polls, and vote for their preferred option.
 
 - Built REST APIs for creating, retrieving, deleting polls, and casting votes using Spring Boot, Spring Data JPA, Hibernate, and MySQL.
@@ -47,7 +48,7 @@ pollvote/
 ## Running it
 
 ### Backend (Spring Boot)
-1. Create a MySQL database (or let `createDatabaseIfNotExist=true` do it).
+1. Create a MySQL database .
 2. Update credentials in `backend/src/main/resources/application.properties`.
 3. From `backend/`: `mvn spring-boot:run` (requires Java 17 + Maven).
    The API starts on `http://localhost:8083`.

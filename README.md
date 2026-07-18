@@ -60,8 +60,6 @@ pollvote/
 1. From `frontend/`: `npm install`
 2. `npm start`
    The app starts on `http://localhost:3000` and talks to the API at
-   `http://localhost:8080/api` (see `src/api.js`).
+   `http://localhost:8083/api` (see `src/api.js`).
 
-> Note: this sandbox has no internet access to Maven Central or npm's full
-> dependency tree, so the projects were written but not built/run here.
-> They're ready to build locally with Java 17 + Maven and Node.js.
+

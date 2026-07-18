@@ -1,0 +1,36 @@
+:root {
+  --cream: #f6ecd4;
+  --cream-dark: #efe0bc;
+  --ink: #1c1a15;
+  --orange: #f0752e;
+  --orange-dark: #d9631f;
+  --green: #6f8f5b;
+  --border: 2px solid var(--ink);
+  --radius: 10px;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+button {
+  font-family: var(--font-mono);
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: var(--font-mono);
+}
+
+a {
+  color: var(--ink);
+}

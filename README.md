@@ -54,7 +54,7 @@ pollvote/
 1. Create a MySQL database (or let `createDatabaseIfNotExist=true` do it).
 2. Update credentials in `backend/src/main/resources/application.properties`.
 3. From `backend/`: `mvn spring-boot:run` (requires Java 17 + Maven).
-   The API starts on `http://localhost:8080`.
+   The API starts on `http://localhost:8083`.
 
 ### Frontend (React)
 1. From `frontend/`: `npm install`
